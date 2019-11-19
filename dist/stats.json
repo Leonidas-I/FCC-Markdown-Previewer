@@ -4,16 +4,16 @@
   "warnings": [
   ],
   "version": "4.41.2",
-  "hash": "29ef59ae2b822b0505fc",
-  "time": 17116,
-  "builtAt": 1574135411398,
+  "hash": "a8716e076ea75c17dce7",
+  "time": 20730,
+  "builtAt": 1574138323748,
   "publicPath": "",
   "outputPath": "/home/arcolinux/leonidas-project/FCC-Markdown-Previewer/dist",
   "assetsByChunkName": {
     "common": "common.1d2470d4c2668981815b.js",
     "main": [
-      "main.a53f1d9689b7ae19b128.css",
-      "main.2b498afdb0e9d11e4f0f.js"
+      "main.4d4590410c29abb4058d.css",
+      "main.9316ee0d6e0a3f90133f.js"
     ],
     "vendor": "vendor.fabe732773090171ab23.js"
   },
@@ -44,8 +44,8 @@
       "emitted": true
     },
     {
-      "name": "main.2b498afdb0e9d11e4f0f.js",
-      "size": 16010,
+      "name": "main.4d4590410c29abb4058d.css",
+      "size": 1095,
       "chunks": [
         1
       ],
@@ -58,8 +58,8 @@
       "emitted": true
     },
     {
-      "name": "main.a53f1d9689b7ae19b128.css",
-      "size": 1065,
+      "name": "main.9316ee0d6e0a3f90133f.js",
+      "size": 17172,
       "chunks": [
         1
       ],
@@ -97,8 +97,8 @@
       "assets": [
         "common.1d2470d4c2668981815b.js",
         "vendor.fabe732773090171ab23.js",
-        "main.a53f1d9689b7ae19b128.css",
-        "main.2b498afdb0e9d11e4f0f.js"
+        "main.4d4590410c29abb4058d.css",
+        "main.9316ee0d6e0a3f90133f.js"
       ],
       "children": {
       },
@@ -116,8 +116,8 @@
       "assets": [
         "common.1d2470d4c2668981815b.js",
         "vendor.fabe732773090171ab23.js",
-        "main.a53f1d9689b7ae19b128.css",
-        "main.2b498afdb0e9d11e4f0f.js"
+        "main.4d4590410c29abb4058d.css",
+        "main.9316ee0d6e0a3f90133f.js"
       ],
       "children": {
       },
@@ -1449,15 +1449,15 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 32624,
+      "size": 32679,
       "names": [
         "main"
       ],
       "files": [
-        "main.a53f1d9689b7ae19b128.css",
-        "main.2b498afdb0e9d11e4f0f.js"
+        "main.4d4590410c29abb4058d.css",
+        "main.9316ee0d6e0a3f90133f.js"
       ],
-      "hash": "13d6d79b76bb0a71d815",
+      "hash": "4cd34c36f9bc29a194cd",
       "siblings": [
         0,
         2
@@ -2399,7 +2399,7 @@
           "name": "./src/script.js + 1 modules",
           "index": 0,
           "index2": 21,
-          "size": 7059,
+          "size": 7080,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -2446,7 +2446,7 @@
               "name": "./src/script.js",
               "index": 0,
               "index2": 21,
-              "size": 6819,
+              "size": 6840,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -2480,7 +2480,7 @@
                 "ModuleConcatenation bailout: Module is an entry point"
               ],
               "depth": 0,
-              "source": "function _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nimport React, { Component } from 'react';\nimport ReactDOM from 'react-dom';\nimport './fontawesome5';\nimport './style.scss';\nimport { FontAwesomeIcon } from '@fortawesome/react-fontawesome';\nimport marked from 'marked'; //Nen lam thu: https://codepen.io/no_stack_dub_sack/pen/JbPZvm?editors=0110\n\nmarked.setOptions({\n  breaks: true\n});\nvar renderer = new marked.Renderer();\n\nrenderer.link = function (href, title, text) {\n  return \"<a target=\\\"_blank\\\" href=\\\"\".concat(href, \"\\\">\").concat(text) + '</a>';\n};\n\nvar Project =\n/*#__PURE__*/\nfunction (_Component) {\n  _inherits(Project, _Component);\n\n  function Project(props) {\n    var _this;\n\n    _classCallCheck(this, Project);\n\n    _this = _possibleConstructorReturn(this, _getPrototypeOf(Project).call(this, props));\n    _this.state = {\n      input: placeholder,\n      editorMax: false,\n      previewMax: false\n    };\n    _this.inputChange = _this.inputChange.bind(_assertThisInitialized(_this));\n    _this.editorMaxProcess = _this.editorMaxProcess.bind(_assertThisInitialized(_this));\n    _this.previewMaxProcess = _this.previewMaxProcess.bind(_assertThisInitialized(_this));\n    return _this;\n  }\n\n  _createClass(Project, [{\n    key: \"inputChange\",\n    value: function inputChange(text) {\n      this.setState({\n        input: text.target.value\n      });\n    }\n  }, {\n    key: \"editorMaxProcess\",\n    value: function editorMaxProcess() {\n      this.setState({\n        editorMax: !this.state.editorMax\n      });\n    }\n  }, {\n    key: \"previewMaxProcess\",\n    value: function previewMaxProcess() {\n      this.setState({\n        previewMax: !this.state.previewMax\n      });\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      var classHTML = this.state.editorMax ? ['editorText maximize', 'previewText minimize', 'compress-arrows-alt'] : this.state.previewMax ? ['editorText minimize', 'previewText maximize', 'compress-arrows-alt'] : ['editorText', 'previewText', 'expand-arrows-alt'];\n      return React.createElement(\"div\", null, React.createElement(\"div\", {\n        className: classHTML[0]\n      }, React.createElement(Toolbar, {\n        title: \"Editor\",\n        onClick: this.editorMaxProcess,\n        icon: classHTML[2]\n      }), React.createElement(Editor, {\n        onChange: this.inputChange,\n        inputfield: this.state.input\n      })), React.createElement(\"div\", {\n        className: classHTML[1]\n      }, React.createElement(Toolbar, {\n        title: \"Preview\",\n        onClick: this.previewMaxProcess,\n        icon: classHTML[2]\n      }), React.createElement(Preview, {\n        inputfield: this.state.input\n      })));\n    }\n  }]);\n\n  return Project;\n}(Component);\n\n;\n\nvar Toolbar = function Toolbar(props) {\n  return React.createElement(\"div\", {\n    className: \"toolbar\"\n  }, props.title, React.createElement(FontAwesomeIcon, {\n    icon: props.icon,\n    className: props.icon,\n    onClick: props.onClick,\n    size: \"lg\"\n  }));\n};\n\nvar Editor = function Editor(props) {\n  return React.createElement(\"textarea\", {\n    id: \"editor\",\n    type: \"text\",\n    onChange: props.onChange,\n    value: props.inputfield\n  });\n};\n\nvar Preview = function Preview(props) {\n  return React.createElement(\"div\", {\n    id: \"preview\",\n    dangerouslySetInnerHTML: {\n      __html: marked(props.inputfield, {\n        renderer: renderer\n      })\n    }\n  });\n};\n/*\nconst placeholder = \n      `# Welcome to my React Markdown Previewer!\n\n## This is a sub-heading...\n### And here's some other cool stuff:\n  \nHeres some code, \\`<div></div>\\`, between 2 backticks.\n\n\\`\\`\\`\n// this is multi-line code:\n\nfunction anotherExample(firstLine, lastLine) {\n  if (firstLine == '\\`\\`\\`' && lastLine == '\\`\\`\\`') {\n    return multiLineCode;\n  }\n}\n\\`\\`\\`\n  \nYou can also make text **bold**... whoa!\nOr _italic_.\nOr... wait for it... **_both!_**\nAnd feel free to go crazy ~~crossing stuff out~~.\n\nThere's also [links](https://www.freecodecamp.com), and\n> Block Quotes!\n\nAnd if you want to get really crazy, even tables:\n\nWild Header | Crazy Header | Another Header?\n------------ | ------------- | ------------- \nYour content can | be here, and it | can be here....\nAnd here. | Okay. | I think we get it.\n\n- And of course there are lists.\n  - Some are bulleted.\n     - With different indentation levels.\n        - That look like this.\n\n\n1. And there are numbererd lists too.\n1. Use just 1s if you want! \n1. But the list goes on...\n- Even if you use dashes or asterisks.\n* And last but not least, let's not forget embedded images:\n\n![React Logo w/ Text](https://goo.gl/Umyytc)\n`\n*/\n\n\nvar placeholder = \"type something in markdown syntax\";\nReactDOM.render(React.createElement(Project, null), document.getElementById('project'));"
+              "source": "function _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nimport React, { Component } from 'react';\nimport ReactDOM from 'react-dom';\nimport './fontawesome5';\nimport './style.scss';\nimport { FontAwesomeIcon } from '@fortawesome/react-fontawesome';\nimport marked from 'marked'; //Nen lam thu: https://codepen.io/no_stack_dub_sack/pen/JbPZvm?editors=0110\n\nmarked.setOptions({\n  breaks: true\n});\nvar renderer = new marked.Renderer();\n\nrenderer.link = function (href, title, text) {\n  return \"<a target=\\\"_blank\\\" href=\\\"\".concat(href, \"\\\">\").concat(text) + '</a>';\n};\n\nvar Project =\n/*#__PURE__*/\nfunction (_Component) {\n  _inherits(Project, _Component);\n\n  function Project(props) {\n    var _this;\n\n    _classCallCheck(this, Project);\n\n    _this = _possibleConstructorReturn(this, _getPrototypeOf(Project).call(this, props));\n    _this.state = {\n      input: placeholder,\n      editorMax: false,\n      previewMax: false\n    };\n    _this.inputChange = _this.inputChange.bind(_assertThisInitialized(_this));\n    _this.editorMaxProcess = _this.editorMaxProcess.bind(_assertThisInitialized(_this));\n    _this.previewMaxProcess = _this.previewMaxProcess.bind(_assertThisInitialized(_this));\n    return _this;\n  }\n\n  _createClass(Project, [{\n    key: \"inputChange\",\n    value: function inputChange(text) {\n      this.setState({\n        input: text.target.value\n      });\n    }\n  }, {\n    key: \"editorMaxProcess\",\n    value: function editorMaxProcess() {\n      this.setState({\n        editorMax: !this.state.editorMax\n      });\n    }\n  }, {\n    key: \"previewMaxProcess\",\n    value: function previewMaxProcess() {\n      this.setState({\n        previewMax: !this.state.previewMax\n      });\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      var classHTML = this.state.editorMax ? ['editorText maximize', 'previewText minimize', 'compress-arrows-alt'] : this.state.previewMax ? ['editorText minimize', 'previewText maximize', 'compress-arrows-alt'] : ['editorText', 'previewText', 'expand-arrows-alt'];\n      return React.createElement(\"div\", null, React.createElement(\"div\", {\n        className: classHTML[0]\n      }, React.createElement(Toolbar, {\n        title: \"Editor\",\n        onClick: this.editorMaxProcess,\n        icon: classHTML[2]\n      }), React.createElement(Editor, {\n        onChange: this.inputChange,\n        inputfield: this.state.input\n      })), React.createElement(\"div\", {\n        className: classHTML[1]\n      }, React.createElement(Toolbar, {\n        title: \"Preview\",\n        onClick: this.previewMaxProcess,\n        icon: classHTML[2]\n      }), React.createElement(Preview, {\n        inputfield: this.state.input\n      })));\n    }\n  }]);\n\n  return Project;\n}(Component);\n\n;\n\nvar Toolbar = function Toolbar(props) {\n  return React.createElement(\"div\", {\n    className: \"toolbar\"\n  }, props.title, React.createElement(FontAwesomeIcon, {\n    icon: props.icon,\n    className: props.icon,\n    onClick: props.onClick,\n    size: \"lg\"\n  }));\n};\n\nvar Editor = function Editor(props) {\n  return React.createElement(\"textarea\", {\n    id: \"editor\",\n    type: \"text\",\n    onChange: props.onChange,\n    value: props.inputfield\n  });\n};\n\nvar Preview = function Preview(props) {\n  return React.createElement(\"div\", {\n    id: \"preview\",\n    dangerouslySetInnerHTML: {\n      __html: marked(props.inputfield, {\n        renderer: renderer\n      })\n    }\n  });\n};\n\nvar placeholder = \"# Welcome to my React Markdown Previewer!\\n\\n## This is a sub-heading...\\n### And here's some other cool stuff:\\n  \\nHeres some code, `<div></div>`, between 2 backticks.\\n\\n```\\n// this is multi-line code:\\n\\nfunction anotherExample(firstLine, lastLine) {\\n  if (firstLine == '```' && lastLine == '```') {\\n    return multiLineCode;\\n  }\\n}\\n```\\n  \\nYou can also make text **bold**... whoa!\\nOr _italic_.\\nOr... wait for it... **_both!_**\\nAnd feel free to go crazy ~~crossing stuff out~~.\\n\\nThere's also [links](https://www.freecodecamp.com), and\\n> Block Quotes!\\n\\nAnd if you want to get really crazy, even tables:\\n\\nWild Header | Crazy Header | Another Header?\\n------------ | ------------- | ------------- \\nYour content can | be here, and it | can be here....\\nAnd here. | Okay. | I think we get it.\\n\\n- And of course there are lists.\\n  - Some are bulleted.\\n     - With different indentation levels.\\n        - That look like this.\\n\\n\\n1. And there are numbererd lists too.\\n1. Use just 1s if you want! \\n1. But the list goes on...\\n- Even if you use dashes or asterisks.\\n* And last but not least, let's not forget embedded images:\\n\\n![React Logo w/ Text](https://goo.gl/Umyytc)\\n\"; // const placeholder = `type something in markdown syntax`\n\nReactDOM.render(React.createElement(Project, null), document.getElementById('project'));"
             },
             {
               "id": null,
@@ -2538,7 +2538,7 @@
           "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
           "index": 16,
           "index2": 14,
-          "size": 1079,
+          "size": 1113,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -2800,7 +2800,7 @@
               "moduleName": "./src/script.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "190:16-21"
+              "loc": "141:16-21"
             }
           ],
           "usedExports": true,
@@ -2857,7 +2857,7 @@
               "moduleName": "./src/script.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react-dom",
-              "loc": "190:0-8"
+              "loc": "141:0-8"
             }
           ],
           "usedExports": [
@@ -3471,7 +3471,7 @@
           "moduleName": "./src/script.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "190:16-21"
+          "loc": "141:16-21"
         }
       ],
       "usedExports": true,
@@ -4894,7 +4894,7 @@
           "moduleName": "./src/script.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react-dom",
-          "loc": "190:0-8"
+          "loc": "141:0-8"
         }
       ],
       "usedExports": [
@@ -5558,7 +5558,7 @@
       "name": "./src/script.js + 1 modules",
       "index": 0,
       "index2": 21,
-      "size": 7059,
+      "size": 7080,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -5605,7 +5605,7 @@
           "name": "./src/script.js",
           "index": 0,
           "index2": 21,
-          "size": 6819,
+          "size": 6840,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -5639,7 +5639,7 @@
             "ModuleConcatenation bailout: Module is an entry point"
           ],
           "depth": 0,
-          "source": "function _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nimport React, { Component } from 'react';\nimport ReactDOM from 'react-dom';\nimport './fontawesome5';\nimport './style.scss';\nimport { FontAwesomeIcon } from '@fortawesome/react-fontawesome';\nimport marked from 'marked'; //Nen lam thu: https://codepen.io/no_stack_dub_sack/pen/JbPZvm?editors=0110\n\nmarked.setOptions({\n  breaks: true\n});\nvar renderer = new marked.Renderer();\n\nrenderer.link = function (href, title, text) {\n  return \"<a target=\\\"_blank\\\" href=\\\"\".concat(href, \"\\\">\").concat(text) + '</a>';\n};\n\nvar Project =\n/*#__PURE__*/\nfunction (_Component) {\n  _inherits(Project, _Component);\n\n  function Project(props) {\n    var _this;\n\n    _classCallCheck(this, Project);\n\n    _this = _possibleConstructorReturn(this, _getPrototypeOf(Project).call(this, props));\n    _this.state = {\n      input: placeholder,\n      editorMax: false,\n      previewMax: false\n    };\n    _this.inputChange = _this.inputChange.bind(_assertThisInitialized(_this));\n    _this.editorMaxProcess = _this.editorMaxProcess.bind(_assertThisInitialized(_this));\n    _this.previewMaxProcess = _this.previewMaxProcess.bind(_assertThisInitialized(_this));\n    return _this;\n  }\n\n  _createClass(Project, [{\n    key: \"inputChange\",\n    value: function inputChange(text) {\n      this.setState({\n        input: text.target.value\n      });\n    }\n  }, {\n    key: \"editorMaxProcess\",\n    value: function editorMaxProcess() {\n      this.setState({\n        editorMax: !this.state.editorMax\n      });\n    }\n  }, {\n    key: \"previewMaxProcess\",\n    value: function previewMaxProcess() {\n      this.setState({\n        previewMax: !this.state.previewMax\n      });\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      var classHTML = this.state.editorMax ? ['editorText maximize', 'previewText minimize', 'compress-arrows-alt'] : this.state.previewMax ? ['editorText minimize', 'previewText maximize', 'compress-arrows-alt'] : ['editorText', 'previewText', 'expand-arrows-alt'];\n      return React.createElement(\"div\", null, React.createElement(\"div\", {\n        className: classHTML[0]\n      }, React.createElement(Toolbar, {\n        title: \"Editor\",\n        onClick: this.editorMaxProcess,\n        icon: classHTML[2]\n      }), React.createElement(Editor, {\n        onChange: this.inputChange,\n        inputfield: this.state.input\n      })), React.createElement(\"div\", {\n        className: classHTML[1]\n      }, React.createElement(Toolbar, {\n        title: \"Preview\",\n        onClick: this.previewMaxProcess,\n        icon: classHTML[2]\n      }), React.createElement(Preview, {\n        inputfield: this.state.input\n      })));\n    }\n  }]);\n\n  return Project;\n}(Component);\n\n;\n\nvar Toolbar = function Toolbar(props) {\n  return React.createElement(\"div\", {\n    className: \"toolbar\"\n  }, props.title, React.createElement(FontAwesomeIcon, {\n    icon: props.icon,\n    className: props.icon,\n    onClick: props.onClick,\n    size: \"lg\"\n  }));\n};\n\nvar Editor = function Editor(props) {\n  return React.createElement(\"textarea\", {\n    id: \"editor\",\n    type: \"text\",\n    onChange: props.onChange,\n    value: props.inputfield\n  });\n};\n\nvar Preview = function Preview(props) {\n  return React.createElement(\"div\", {\n    id: \"preview\",\n    dangerouslySetInnerHTML: {\n      __html: marked(props.inputfield, {\n        renderer: renderer\n      })\n    }\n  });\n};\n/*\nconst placeholder = \n      `# Welcome to my React Markdown Previewer!\n\n## This is a sub-heading...\n### And here's some other cool stuff:\n  \nHeres some code, \\`<div></div>\\`, between 2 backticks.\n\n\\`\\`\\`\n// this is multi-line code:\n\nfunction anotherExample(firstLine, lastLine) {\n  if (firstLine == '\\`\\`\\`' && lastLine == '\\`\\`\\`') {\n    return multiLineCode;\n  }\n}\n\\`\\`\\`\n  \nYou can also make text **bold**... whoa!\nOr _italic_.\nOr... wait for it... **_both!_**\nAnd feel free to go crazy ~~crossing stuff out~~.\n\nThere's also [links](https://www.freecodecamp.com), and\n> Block Quotes!\n\nAnd if you want to get really crazy, even tables:\n\nWild Header | Crazy Header | Another Header?\n------------ | ------------- | ------------- \nYour content can | be here, and it | can be here....\nAnd here. | Okay. | I think we get it.\n\n- And of course there are lists.\n  - Some are bulleted.\n     - With different indentation levels.\n        - That look like this.\n\n\n1. And there are numbererd lists too.\n1. Use just 1s if you want! \n1. But the list goes on...\n- Even if you use dashes or asterisks.\n* And last but not least, let's not forget embedded images:\n\n![React Logo w/ Text](https://goo.gl/Umyytc)\n`\n*/\n\n\nvar placeholder = \"type something in markdown syntax\";\nReactDOM.render(React.createElement(Project, null), document.getElementById('project'));"
+          "source": "function _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nimport React, { Component } from 'react';\nimport ReactDOM from 'react-dom';\nimport './fontawesome5';\nimport './style.scss';\nimport { FontAwesomeIcon } from '@fortawesome/react-fontawesome';\nimport marked from 'marked'; //Nen lam thu: https://codepen.io/no_stack_dub_sack/pen/JbPZvm?editors=0110\n\nmarked.setOptions({\n  breaks: true\n});\nvar renderer = new marked.Renderer();\n\nrenderer.link = function (href, title, text) {\n  return \"<a target=\\\"_blank\\\" href=\\\"\".concat(href, \"\\\">\").concat(text) + '</a>';\n};\n\nvar Project =\n/*#__PURE__*/\nfunction (_Component) {\n  _inherits(Project, _Component);\n\n  function Project(props) {\n    var _this;\n\n    _classCallCheck(this, Project);\n\n    _this = _possibleConstructorReturn(this, _getPrototypeOf(Project).call(this, props));\n    _this.state = {\n      input: placeholder,\n      editorMax: false,\n      previewMax: false\n    };\n    _this.inputChange = _this.inputChange.bind(_assertThisInitialized(_this));\n    _this.editorMaxProcess = _this.editorMaxProcess.bind(_assertThisInitialized(_this));\n    _this.previewMaxProcess = _this.previewMaxProcess.bind(_assertThisInitialized(_this));\n    return _this;\n  }\n\n  _createClass(Project, [{\n    key: \"inputChange\",\n    value: function inputChange(text) {\n      this.setState({\n        input: text.target.value\n      });\n    }\n  }, {\n    key: \"editorMaxProcess\",\n    value: function editorMaxProcess() {\n      this.setState({\n        editorMax: !this.state.editorMax\n      });\n    }\n  }, {\n    key: \"previewMaxProcess\",\n    value: function previewMaxProcess() {\n      this.setState({\n        previewMax: !this.state.previewMax\n      });\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      var classHTML = this.state.editorMax ? ['editorText maximize', 'previewText minimize', 'compress-arrows-alt'] : this.state.previewMax ? ['editorText minimize', 'previewText maximize', 'compress-arrows-alt'] : ['editorText', 'previewText', 'expand-arrows-alt'];\n      return React.createElement(\"div\", null, React.createElement(\"div\", {\n        className: classHTML[0]\n      }, React.createElement(Toolbar, {\n        title: \"Editor\",\n        onClick: this.editorMaxProcess,\n        icon: classHTML[2]\n      }), React.createElement(Editor, {\n        onChange: this.inputChange,\n        inputfield: this.state.input\n      })), React.createElement(\"div\", {\n        className: classHTML[1]\n      }, React.createElement(Toolbar, {\n        title: \"Preview\",\n        onClick: this.previewMaxProcess,\n        icon: classHTML[2]\n      }), React.createElement(Preview, {\n        inputfield: this.state.input\n      })));\n    }\n  }]);\n\n  return Project;\n}(Component);\n\n;\n\nvar Toolbar = function Toolbar(props) {\n  return React.createElement(\"div\", {\n    className: \"toolbar\"\n  }, props.title, React.createElement(FontAwesomeIcon, {\n    icon: props.icon,\n    className: props.icon,\n    onClick: props.onClick,\n    size: \"lg\"\n  }));\n};\n\nvar Editor = function Editor(props) {\n  return React.createElement(\"textarea\", {\n    id: \"editor\",\n    type: \"text\",\n    onChange: props.onChange,\n    value: props.inputfield\n  });\n};\n\nvar Preview = function Preview(props) {\n  return React.createElement(\"div\", {\n    id: \"preview\",\n    dangerouslySetInnerHTML: {\n      __html: marked(props.inputfield, {\n        renderer: renderer\n      })\n    }\n  });\n};\n\nvar placeholder = \"# Welcome to my React Markdown Previewer!\\n\\n## This is a sub-heading...\\n### And here's some other cool stuff:\\n  \\nHeres some code, `<div></div>`, between 2 backticks.\\n\\n```\\n// this is multi-line code:\\n\\nfunction anotherExample(firstLine, lastLine) {\\n  if (firstLine == '```' && lastLine == '```') {\\n    return multiLineCode;\\n  }\\n}\\n```\\n  \\nYou can also make text **bold**... whoa!\\nOr _italic_.\\nOr... wait for it... **_both!_**\\nAnd feel free to go crazy ~~crossing stuff out~~.\\n\\nThere's also [links](https://www.freecodecamp.com), and\\n> Block Quotes!\\n\\nAnd if you want to get really crazy, even tables:\\n\\nWild Header | Crazy Header | Another Header?\\n------------ | ------------- | ------------- \\nYour content can | be here, and it | can be here....\\nAnd here. | Okay. | I think we get it.\\n\\n- And of course there are lists.\\n  - Some are bulleted.\\n     - With different indentation levels.\\n        - That look like this.\\n\\n\\n1. And there are numbererd lists too.\\n1. Use just 1s if you want! \\n1. But the list goes on...\\n- Even if you use dashes or asterisks.\\n* And last but not least, let's not forget embedded images:\\n\\n![React Logo w/ Text](https://goo.gl/Umyytc)\\n\"; // const placeholder = `type something in markdown syntax`\n\nReactDOM.render(React.createElement(Project, null), document.getElementById('project'));"
         },
         {
           "id": null,
@@ -5697,7 +5697,7 @@
       "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
       "index": 16,
       "index2": 14,
-      "size": 1079,
+      "size": 1113,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -5982,14 +5982,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 3895,
+          "size": 3929,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "89add97ac78b3822ceb8",
+          "hash": "608613ef5f2a61c4af8f",
           "siblings": [
           ],
           "parents": [
@@ -6005,7 +6005,7 @@
               "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
               "index": 0,
               "index2": 1,
-              "size": 1218,
+              "size": 1252,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -6039,7 +6039,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "exports = module.exports = require(\"../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \"body{background-color:#bcf5bc}*{box-sizing:border-box}.box-shadow-default,.editorText,.previewText{border:1px solid #000;box-shadow:1px 1px 10px 1px blue}.toolbar{border-bottom:1px solid #000;width:100%;height:40px;background-color:orange;padding:3px 20px;font-size:20px}.toolbar .compress-arrows-alt,.toolbar .expand-arrows-alt{position:absolute;right:10px;padding-top:7px;color:#000}.toolbar .compress-arrows-alt:hover,.toolbar .expand-arrows-alt:hover{color:red;cursor:pointer}.editorText{width:48%;position:absolute;top:50px;left:1%}.editorText textarea{width:100%;min-height:70vh;resize:vertical;margin:0px;background-color:#64e764;padding:10px 10px}.previewText{position:absolute;top:50px;left:51%;width:48%;min-height:50vh}.previewText #preview{padding:10px 10px;word-break:break-all}.minimize{display:none}.maximize{position:absolute;width:98%;left:1%}@media screen and (max-width: 1000px){.editorText{top:20px;left:2%;width:96%}.editorText textarea{min-height:40vh}.previewText{position:relative;left:2%;width:96%;min-height:200px}.maximize{position:relative;top:20px}}\\n\", \"\"]);\n"
+              "source": "exports = module.exports = require(\"../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \"body{background-color:greenyellow}*{box-sizing:border-box}.box-shadow-default,.editorText,.previewText{border:1px solid #000;box-shadow:1px 1px 10px 1px blue}.toolbar{border-bottom:1px solid #000;width:100%;height:40px;background-color:#9d7ef1;padding:3px 20px;font-size:20px}.toolbar .compress-arrows-alt,.toolbar .expand-arrows-alt{position:absolute;right:10px;padding-top:7px;color:#000}.toolbar .compress-arrows-alt:hover,.toolbar .expand-arrows-alt:hover{color:crimson;cursor:pointer}.editorText{width:48%;position:absolute;top:50px;left:1%}.editorText textarea{width:100%;min-height:70vh;resize:vertical;margin:0px;background-color:#2cd9d0;padding:10px 10px}.previewText{position:absolute;top:50px;left:51%;width:48%;min-height:50vh}.previewText #preview{padding:10px 10px;word-break:break-all;background-color:oldlace}.minimize{display:none}.maximize{position:absolute;width:98%;left:1%}@media screen and (max-width: 1000px){.editorText{top:20px;left:2%;width:96%}.editorText textarea{min-height:40vh}.previewText{position:relative;left:2%;width:96%;min-height:200px}.maximize{position:relative;top:20px}}\\n\", \"\"]);\n"
             },
             {
               "id": 1,
@@ -6111,7 +6111,7 @@
           "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
           "index": 0,
           "index2": 1,
-          "size": 1218,
+          "size": 1252,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -6145,7 +6145,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "exports = module.exports = require(\"../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \"body{background-color:#bcf5bc}*{box-sizing:border-box}.box-shadow-default,.editorText,.previewText{border:1px solid #000;box-shadow:1px 1px 10px 1px blue}.toolbar{border-bottom:1px solid #000;width:100%;height:40px;background-color:orange;padding:3px 20px;font-size:20px}.toolbar .compress-arrows-alt,.toolbar .expand-arrows-alt{position:absolute;right:10px;padding-top:7px;color:#000}.toolbar .compress-arrows-alt:hover,.toolbar .expand-arrows-alt:hover{color:red;cursor:pointer}.editorText{width:48%;position:absolute;top:50px;left:1%}.editorText textarea{width:100%;min-height:70vh;resize:vertical;margin:0px;background-color:#64e764;padding:10px 10px}.previewText{position:absolute;top:50px;left:51%;width:48%;min-height:50vh}.previewText #preview{padding:10px 10px;word-break:break-all}.minimize{display:none}.maximize{position:absolute;width:98%;left:1%}@media screen and (max-width: 1000px){.editorText{top:20px;left:2%;width:96%}.editorText textarea{min-height:40vh}.previewText{position:relative;left:2%;width:96%;min-height:200px}.maximize{position:relative;top:20px}}\\n\", \"\"]);\n"
+          "source": "exports = module.exports = require(\"../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \"body{background-color:greenyellow}*{box-sizing:border-box}.box-shadow-default,.editorText,.previewText{border:1px solid #000;box-shadow:1px 1px 10px 1px blue}.toolbar{border-bottom:1px solid #000;width:100%;height:40px;background-color:#9d7ef1;padding:3px 20px;font-size:20px}.toolbar .compress-arrows-alt,.toolbar .expand-arrows-alt{position:absolute;right:10px;padding-top:7px;color:#000}.toolbar .compress-arrows-alt:hover,.toolbar .expand-arrows-alt:hover{color:crimson;cursor:pointer}.editorText{width:48%;position:absolute;top:50px;left:1%}.editorText textarea{width:100%;min-height:70vh;resize:vertical;margin:0px;background-color:#2cd9d0;padding:10px 10px}.previewText{position:absolute;top:50px;left:51%;width:48%;min-height:50vh}.previewText #preview{padding:10px 10px;word-break:break-all;background-color:oldlace}.minimize{display:none}.maximize{position:absolute;width:98%;left:1%}@media screen and (max-width: 1000px){.editorText{top:20px;left:2%;width:96%}.editorText textarea{min-height:40vh}.previewText{position:relative;left:2%;width:96%;min-height:200px}.maximize{position:relative;top:20px}}\\n\", \"\"]);\n"
         },
         {
           "id": 1,

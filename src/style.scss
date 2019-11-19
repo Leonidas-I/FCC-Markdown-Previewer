@@ -1,11 +1,11 @@
-$text-background: lightgreen;
+$text-background: lightseagreen;
 $box-background: black;
 $border: 1px solid darken($box-background, 50%);
-$toolbar-background: orange;
+$toolbar-background: rgb(157, 126, 241);
 $shadow: 1px 1px 10px 1px blue;
 
 body {
-  background-color: lighten($text-background, 10%);
+  background-color: greenyellow;
 }
 * {
   box-sizing: border-box;
@@ -29,7 +29,7 @@ body {
     padding-top: 7px;
     color: $box-background;
     &:hover {
-      color: red;
+      color: crimson;
       cursor: pointer;
     }
   }
@@ -46,7 +46,7 @@ body {
     min-height: 70vh;
     resize: vertical;
     margin: 0px;
-    background-color: darken($text-background, 10%);
+    background-color: lighten($text-background, 10%);
     padding: 10px 10px;
   }
 }
@@ -61,6 +61,7 @@ body {
   #preview {
     padding: 10px 10px;
     word-break: break-all;
+    background-color: oldlace;
   }
 }
 

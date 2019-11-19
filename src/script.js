@@ -85,7 +85,7 @@ const Preview = (props) => {
   )
 };
 
-/*
+
 const placeholder = 
       `# Welcome to my React Markdown Previewer!
 
@@ -133,8 +133,8 @@ And here. | Okay. | I think we get it.
 
 ![React Logo w/ Text](https://goo.gl/Umyytc)
 `
-*/
-const placeholder = `type something in markdown syntax`
+
+// const placeholder = `type something in markdown syntax`
 
 ReactDOM.render(<Project />, document.getElementById('project'));
 
