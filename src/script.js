@@ -1,7 +1,10 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
+import './fontawesome5';
+import './style.scss';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import marked from 'marked';
+
 
 //Nen lam thu: https://codepen.io/no_stack_dub_sack/pen/JbPZvm?editors=0110
 
@@ -42,19 +45,18 @@ class Project extends Component {
     })
   }
   render() {
-    const classHTML = this.state.editorMax ? 
-                      ['editorText maximize', 'previewText minimize', 'faCompressArrowsAlt'] : 
-                      this.state.previewMax ?
-                      ['editorText minimize', 'previewText maximize', 'faCompressArrowsAlt'] :
-                      ['editorText', 'previewText', 'faExpandArrowsAlt'];
+    const classHTML = this.state.editorMax 
+      ? ['editorText maximize', 'previewText minimize', 'compress-arrows-alt'] : this.state.previewMax 
+        ? ['editorText minimize', 'previewText maximize', 'compress-arrows-alt']
+        : ['editorText', 'previewText', 'expand-arrows-alt'];
     return (
       <div>
         <div className={classHTML[0]}>
-          <Toolbar title='Editor' onClick={this.editorMaxProcess} icon={classHTML[2]}/>
+          <Toolbar title='Editor' onClick={this.editorMaxProcess} icon={classHTML[2]} />
           <Editor onChange={this.inputChange} inputfield={this.state.input} />
         </div>
         <div className={classHTML[1]}>
-          <Toolbar title='Preview' onClick={this.previewMaxProcess} icon={classHTML[2]}/>
+          <Toolbar title='Preview' onClick={this.previewMaxProcess} icon={classHTML[2]} />
           <Preview inputfield={this.state.input} />
         </div>
       </div>
@@ -66,7 +68,7 @@ const Toolbar = (props) => {
   return (
     <div className='toolbar'>
       {props.title}
-      <FontAwesomeIcon className={props.icon} onClick={props.onClick} />
+      <FontAwesomeIcon icon={props.icon} className={props.icon} onClick={props.onClick} size='lg' />
     </div>
   )
 };
@@ -81,8 +83,9 @@ const Preview = (props) => {
   return (
     <div id='preview' dangerouslySetInnerHTML={{__html: marked(props.inputfield,{renderer:renderer})}} />
   )
-}
+};
 
+/*
 const placeholder = 
       `# Welcome to my React Markdown Previewer!
 
@@ -130,6 +133,8 @@ And here. | Okay. | I think we get it.
 
 ![React Logo w/ Text](https://goo.gl/Umyytc)
 `
+*/
+const placeholder = `type something in markdown syntax`
 
 ReactDOM.render(<Project />, document.getElementById('project'));
 

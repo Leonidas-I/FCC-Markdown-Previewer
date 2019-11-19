@@ -1,5 +1,21 @@
 module.exports = {
   entry: './src/script.js',
+  optimization: {
+    splitChunks: {
+      cacheGroups: {
+        vendor: {
+          test: /[\\/]node_modules[\\/](react|react-dom)[\\/]/,
+          name: 'vendor',
+          chunks: 'all',
+        },
+        common: {
+          test: /[\\/]node_modules[\\/](@fortawesome|marked)[\\/]/,
+          name: 'common',
+          chunks: 'all'
+        }
+      }
+    }
+  },
   module: {
     rules: [
       {
@@ -7,15 +23,10 @@ module.exports = {
         use: ['html-loader']
       },
       {
-        test: /\.js[x]$/,
+        test: /\.js$/,
         exclude: /node_modules/,
         use: ['babel-loader']
       }
     ]
-  },
-  optimization: {
-    splitChunks: {
-      chunks: all
-    }
   }
-}
+};

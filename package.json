@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "develope": "webpack-dev-server --config webpack.develope.js --open",
-    "product": "webpack --config webpack.product.js"
+    "developement": "webpack-dev-server --config webpack.developement.js --open",
+    "production": "webpack --config webpack.production.js",
+    "analyze": "webpack-bundle-analyzer dist/stats.json --static"
   },
   "repository": {
     "type": "git",
