@@ -5,7 +5,7 @@ $toolbar-background: rgb(157, 126, 241);
 $shadow: 1px 1px 10px 1px blue;
 
 body {
-  background-color: greenyellow;
+  background-color: ghostwhite;
 }
 * {
   box-sizing: border-box;
@@ -21,12 +21,12 @@ body {
   width: 100%;
   height: 40px;
   background-color: $toolbar-background;
-  padding: 3px 20px;
+  padding: 7px 20px;
   font-size: 20px;
   .compress-arrows-alt, .expand-arrows-alt {
     position: absolute;
     right: 10px;
-    padding-top: 7px;
+    // padding-top: 1px;
     color: $box-background;
     &:hover {
       color: crimson;
@@ -61,7 +61,7 @@ body {
   #preview {
     padding: 10px 10px;
     word-break: break-all;
-    background-color: oldlace;
+    background-color: blanchedalmond;
   }
 }
 
