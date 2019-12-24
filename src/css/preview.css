@@ -1,0 +1,13 @@
+#preview {
+  border: 1px solid darken(black, 50%);
+  box-shadow: 1px 1px 10px 1px blue;
+  padding: 10px 10px;
+  word-break: break-all;
+  background-color: blanchedalmond;
+}
+
+@media screen and (max-width: 900px) {
+  #preview {
+    min-height: 200px;
+  }
+}

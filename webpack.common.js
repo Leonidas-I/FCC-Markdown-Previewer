@@ -1,5 +1,5 @@
 module.exports = {
-  entry: './src/script.js',
+  entry: './src/js/index.js',
   optimization: {
     splitChunks: {
       cacheGroups: {

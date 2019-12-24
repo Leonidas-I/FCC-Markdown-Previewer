@@ -7,7 +7,7 @@ module.exports = merge(common, {
   devtool: 'inline-cheap-module-source-map',
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/project.html'
+      template: './src/html/index.html'
     })
   ],
   module: {
@@ -19,13 +19,14 @@ module.exports = merge(common, {
           {
             loader: 'css-loader',
             options: {
-              sourceMap: true
+              sourceMap: true,
+              modules: true
             }
           },
           {
             loader: 'sass-loader',
             options: {
-              sourceMap: true
+              sourceMap: true,
             }
           }
         ]

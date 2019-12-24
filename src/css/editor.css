@@ -1,0 +1,16 @@
+textarea {
+  border: 1px solid darken(black, 50%);
+  box-shadow: 1px 1px 10px 1px blue;
+  width: 100%;
+  min-height: 70vh;
+  resize: vertical;
+  margin: 0px;
+  background-color: lighten(lightseagreen, 10%);
+  padding: 10px 10px;
+}
+
+@media screen and (max-width: 900px) {
+  textarea {
+    min-height: 40vh;
+  }
+}

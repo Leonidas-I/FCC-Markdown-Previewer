@@ -19,7 +19,7 @@ module.exports = merge(common, {
       new OptimizeCssAssetsWebpackPlugin(),
       new TerserWebpackPlugin(),
       new HtmlWebpackPlugin({
-        template: './src/project.html',
+        template: './src/html/index.html',
         minify: {
           removeAttributeQuotes: true,
           removeComments: true,
@@ -44,7 +44,12 @@ module.exports = merge(common, {
         test: /\.s[ac]ss$/,
         use: [
           MiniCssExtractPlugin.loader,
-          'css-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              modules: true
+            }
+          },
           'sass-loader'
         ]
       }
