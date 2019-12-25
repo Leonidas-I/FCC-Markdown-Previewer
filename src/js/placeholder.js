@@ -1,4 +1,4 @@
-export const placeholder = 
+const placeholder = 
       `# Welcome to my React Markdown Previewer!
 
 ## This is a sub-heading...
@@ -47,3 +47,5 @@ And here. | Okay. | I think we get it.
 `
 
 // const placeholder = `type something in markdown syntax`
+
+export default placeholder;

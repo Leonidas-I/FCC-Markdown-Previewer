@@ -1,17 +1,7 @@
-$text-background: lightseagreen;
-$box-background: black;
-$border: 1px solid darken($box-background, 50%);
-$toolbar-background: rgb(157, 126, 241);
-$shadow: 1px 1px 10px 1px blue;
-
 body {
   background-color: ghostwhite;
 }
+
 * {
   box-sizing: border-box;
-}
-
-.boxShadowDefault {
-  border: 1px solid darken(black, 50%);
-  box-shadow: 1px 1px 10px 1px blue;
 }

@@ -1,12 +1,15 @@
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import './fontawesome5';
-import styles from '../css/toolbar.scss';
+import styles from '../css/toolbar.css';
+import React from 'react';
 
-export const Toolbar = (props) => {
+const Toolbar = (props) => {
   return (
     <div className={styles.toolbar}>
       {props.title}
-      <FontAwesomeIcon icon={props.icon} className={props.icon} onClick={props.onClick} size='lg' />
+      <FontAwesomeIcon icon={props.icon} className={styles[props.icon]} onClick={props.onClick} size='lg' />
     </div>
   )
 };
+
+export default Toolbar;

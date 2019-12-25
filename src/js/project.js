@@ -1,22 +1,12 @@
 import React, { Component } from 'react';
-import marked from 'marked';
-import { Editor } from './editor';
-import { Preview } from './preview';
-import { Toolbar } from './toolbar';
-import { placeholder } from './placeholder';
-import styles from '../css/editor.scss';
-import styles from '../css/preview.scss';
+import Editor from './editor';
+import Preview from './preview';
+import Toolbar from './toolbar';
+import placeholder from './placeholder';
+import styles from '../css/layout.css';
+import '../css/mutual.css';
 
-marked.setOptions({
-  breaks: true,
-});
-
-const renderer = new marked.Renderer();
-renderer.link = function(href, title, text) {
-  return `<a target="_blank" href="${href}">${text}` + '</a>';
-};
-
-export class Project extends Component {
+class Project extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -45,16 +35,16 @@ export class Project extends Component {
   }
   render() {
     const classHTML = this.state.editorMax 
-      ? ['editorText maximize', 'previewText minimize', 'compress-arrows-alt'] : this.state.previewMax 
-        ? ['editorText minimize', 'previewText maximize', 'compress-arrows-alt']
-        : ['editorText', 'previewText', 'expand-arrows-alt'];
+      ? ['maximize', 'minimize', 'compress-arrows-alt'] : this.state.previewMax 
+        ? ['minimize', 'maximize', 'compress-arrows-alt']
+        : ['left', 'right', 'expand-arrows-alt'];
     return (
       <div>
-        <div className={classHTML[0]}>
+        <div className={styles[classHTML[0]]}>
           <Toolbar title='Editor' onClick={this.editorMaxProcess} icon={classHTML[2]} />
           <Editor onChange={this.inputChange} inputfield={this.state.input} />
         </div>
-        <div className={classHTML[1]}>
+        <div className={styles[classHTML[1]]}>
           <Toolbar title='Preview' onClick={this.previewMaxProcess} icon={classHTML[2]} />
           <Preview inputfield={this.state.input} />
         </div>
@@ -62,3 +52,5 @@ export class Project extends Component {
     )
   } 
 };
+
+export default Project;

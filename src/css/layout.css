@@ -6,38 +6,43 @@
   position: absolute;
   width: 98%;
   left: 1%;
+  top: 50px;
+  box-shadow: 1px 1px 10px 1px blue;
 }
 
 .left {
-  width: 48%;
   position: absolute;
-  top: 50px;
+  width: 48%;
   left: 1%;
+  top: 50px;
+  box-shadow: 1px 1px 10px 1px blue;
 }
 
 .right {
   position: absolute;
-  top: 50px;
-  left: 51%;
   width: 48%;
+  right: 1%;
+  top: 50px;
   min-height: 50vh;
+  box-shadow: 1px 1px 10px 1px blue;
 }
 
 @media screen and (max-width: 900px) {
   .maximize {
-    position: relative;
-    top: 20px;
+    position: absolute;
+    top: 1em;
   }
 
   .left {
-    top: 20px;
-    left: 2%;
-    width: 96%;
+    position: static;
+    margin: 1em auto;
+    width: 98%;
   }
 
   .right {
-    position: relative;
-    left: 2%;
-    width: 96%;
+    position: static;
+    margin: 1em auto;
+    width: 98%;
+    min-height: 200px;
   }
 }

@@ -1,16 +1,15 @@
-textarea {
-  border: 1px solid darken(black, 50%);
-  box-shadow: 1px 1px 10px 1px blue;
+.editorText {
   width: 100%;
   min-height: 70vh;
   resize: vertical;
-  margin: 0px;
-  background-color: lighten(lightseagreen, 10%);
+  background-color: lightskyblue;
   padding: 10px 10px;
+  margin-bottom: -5px;
+  border: 1px solid black;
 }
 
 @media screen and (max-width: 900px) {
-  textarea {
+  .editorText {
     min-height: 40vh;
   }
 }
