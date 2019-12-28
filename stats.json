@@ -4,15 +4,15 @@
   "warnings": [
   ],
   "version": "4.41.2",
-  "hash": "d430eaee2d7025d31058",
-  "time": 30850,
-  "builtAt": 1577531964384,
+  "hash": "a51315acacbd1961fa08",
+  "time": 32421,
+  "builtAt": 1577532641767,
   "publicPath": "",
   "outputPath": "/home/arcolinux/leonidas-project/FCC-Markdown-Previewer/dist",
   "assetsByChunkName": {
     "common": "common.ba317382cb287d8fa07c.js",
     "main": [
-      "main.8536dbc7bf144d02a8c6.css",
+      "main.62e9b015d0fe4aae95bc.css",
       "main.f56a394176322cc86322.js"
     ],
     "vendor": "vendor.7fec6ea96cbfb6680f80.js"
@@ -44,8 +44,8 @@
       "emitted": true
     },
     {
-      "name": "main.8536dbc7bf144d02a8c6.css",
-      "size": 1344,
+      "name": "main.62e9b015d0fe4aae95bc.css",
+      "size": 1379,
       "chunks": [
         1
       ],
@@ -97,7 +97,7 @@
       "assets": [
         "common.ba317382cb287d8fa07c.js",
         "vendor.7fec6ea96cbfb6680f80.js",
-        "main.8536dbc7bf144d02a8c6.css",
+        "main.62e9b015d0fe4aae95bc.css",
         "main.f56a394176322cc86322.js"
       ],
       "children": {
@@ -116,7 +116,7 @@
       "assets": [
         "common.ba317382cb287d8fa07c.js",
         "vendor.7fec6ea96cbfb6680f80.js",
-        "main.8536dbc7bf144d02a8c6.css",
+        "main.62e9b015d0fe4aae95bc.css",
         "main.f56a394176322cc86322.js"
       ],
       "children": {
@@ -1489,15 +1489,15 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 34539,
+      "size": 34582,
       "names": [
         "main"
       ],
       "files": [
-        "main.8536dbc7bf144d02a8c6.css",
+        "main.62e9b015d0fe4aae95bc.css",
         "main.f56a394176322cc86322.js"
       ],
-      "hash": "c9dc834714a3d0b5aadf",
+      "hash": "bafc5514459b4c89dc05",
       "siblings": [
         0,
         2
@@ -3386,7 +3386,7 @@
           "name": "css ./node_modules/css-loader/dist/cjs.js??ref--6-1!./src/css/editor.css",
           "index": 11,
           "index2": 7,
-          "size": 286,
+          "size": 304,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -3444,7 +3444,7 @@
           "name": "css ./node_modules/css-loader/dist/cjs.js??ref--6-1!./src/css/preview.css",
           "index": 14,
           "index2": 10,
-          "size": 248,
+          "size": 273,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -7591,7 +7591,7 @@
       "name": "css ./node_modules/css-loader/dist/cjs.js??ref--6-1!./src/css/editor.css",
       "index": 11,
       "index2": 7,
-      "size": 286,
+      "size": 304,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -7649,7 +7649,7 @@
       "name": "css ./node_modules/css-loader/dist/cjs.js??ref--6-1!./src/css/preview.css",
       "index": 14,
       "index2": 10,
-      "size": 248,
+      "size": 273,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -8002,14 +8002,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 3191,
+          "size": 3210,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "a061eefdac28f84b3bc6",
+          "hash": "cdd9eba20f5bc66ad4e4",
           "siblings": [
           ],
           "parents": [
@@ -8025,7 +8025,7 @@
               "name": "./node_modules/css-loader/dist/cjs.js??ref--6-1!./src/css/editor.css",
               "index": 0,
               "index2": 1,
-              "size": 514,
+              "size": 533,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -8059,7 +8059,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \"._2YOIZ9l1AuIocD2I_kydW2 {\\n  width: 100%;\\n  min-height: 70vh;\\n  resize: vertical;\\n  background-color: lightskyblue;\\n  padding: 10px 10px;\\n  margin-bottom: -5px;\\n  border: 1px solid black;\\n}\\n\\n@media screen and (max-width: 900px) {\\n  ._2YOIZ9l1AuIocD2I_kydW2 {\\n    min-height: 40vh;\\n  }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"editorText\": \"_2YOIZ9l1AuIocD2I_kydW2\"\n};"
+              "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \"._2YOIZ9l1AuIocD2I_kydW2 {\\n  width: 100%;\\n  min-height: 70vh;\\n  resize: vertical;\\n  overflow: auto;\\n  background-color: lightskyblue;\\n  padding: 10px 10px;\\n  margin-bottom: -5px;\\n  border: 1px solid black;\\n}\\n\\n@media screen and (max-width: 900px) {\\n  ._2YOIZ9l1AuIocD2I_kydW2 {\\n    min-height: 40vh;\\n  }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"editorText\": \"_2YOIZ9l1AuIocD2I_kydW2\"\n};"
             },
             {
               "id": 1,
@@ -8131,7 +8131,7 @@
           "name": "./node_modules/css-loader/dist/cjs.js??ref--6-1!./src/css/editor.css",
           "index": 0,
           "index2": 1,
-          "size": 514,
+          "size": 533,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -8165,7 +8165,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \"._2YOIZ9l1AuIocD2I_kydW2 {\\n  width: 100%;\\n  min-height: 70vh;\\n  resize: vertical;\\n  background-color: lightskyblue;\\n  padding: 10px 10px;\\n  margin-bottom: -5px;\\n  border: 1px solid black;\\n}\\n\\n@media screen and (max-width: 900px) {\\n  ._2YOIZ9l1AuIocD2I_kydW2 {\\n    min-height: 40vh;\\n  }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"editorText\": \"_2YOIZ9l1AuIocD2I_kydW2\"\n};"
+          "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \"._2YOIZ9l1AuIocD2I_kydW2 {\\n  width: 100%;\\n  min-height: 70vh;\\n  resize: vertical;\\n  overflow: auto;\\n  background-color: lightskyblue;\\n  padding: 10px 10px;\\n  margin-bottom: -5px;\\n  border: 1px solid black;\\n}\\n\\n@media screen and (max-width: 900px) {\\n  ._2YOIZ9l1AuIocD2I_kydW2 {\\n    min-height: 40vh;\\n  }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"editorText\": \"_2YOIZ9l1AuIocD2I_kydW2\"\n};"
         },
         {
           "id": 1,
@@ -8821,14 +8821,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 3151,
+          "size": 3177,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "96e692710697660dacb0",
+          "hash": "7b6e1b192dc1dd12e59b",
           "siblings": [
           ],
           "parents": [
@@ -8844,7 +8844,7 @@
               "name": "./node_modules/css-loader/dist/cjs.js??ref--6-1!./src/css/preview.css",
               "index": 0,
               "index2": 1,
-              "size": 474,
+              "size": 500,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -8878,7 +8878,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".rYqW_1oq2u3Ttaodck0CP {\\n  width: 100%;\\n  padding: 10px 10px;\\n  word-break: break-all;\\n  background-color: blanchedalmond;\\n  border: 1px solid black;\\n}\\n\\n@media screen and (max-width: 900px) {\\n  .rYqW_1oq2u3Ttaodck0CP {\\n    min-height: 200px;\\n  }\\n}\\n\", \"\"]);\n// Exports\nexports.locals = {\n\t\"previewText\": \"rYqW_1oq2u3Ttaodck0CP\"\n};"
+              "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".rYqW_1oq2u3Ttaodck0CP {\\n  width: 100%;\\n  padding: 10px 10px;\\n  word-break: break-all;\\n  word-wrap: break-word;\\n  background-color: blanchedalmond;\\n  border: 1px solid black;\\n}\\n\\n@media screen and (max-width: 900px) {\\n  .rYqW_1oq2u3Ttaodck0CP {\\n    min-height: 200px;\\n  }\\n}\\n\", \"\"]);\n// Exports\nexports.locals = {\n\t\"previewText\": \"rYqW_1oq2u3Ttaodck0CP\"\n};"
             },
             {
               "id": 1,
@@ -8950,7 +8950,7 @@
           "name": "./node_modules/css-loader/dist/cjs.js??ref--6-1!./src/css/preview.css",
           "index": 0,
           "index2": 1,
-          "size": 474,
+          "size": 500,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -8984,7 +8984,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".rYqW_1oq2u3Ttaodck0CP {\\n  width: 100%;\\n  padding: 10px 10px;\\n  word-break: break-all;\\n  background-color: blanchedalmond;\\n  border: 1px solid black;\\n}\\n\\n@media screen and (max-width: 900px) {\\n  .rYqW_1oq2u3Ttaodck0CP {\\n    min-height: 200px;\\n  }\\n}\\n\", \"\"]);\n// Exports\nexports.locals = {\n\t\"previewText\": \"rYqW_1oq2u3Ttaodck0CP\"\n};"
+          "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".rYqW_1oq2u3Ttaodck0CP {\\n  width: 100%;\\n  padding: 10px 10px;\\n  word-break: break-all;\\n  word-wrap: break-word;\\n  background-color: blanchedalmond;\\n  border: 1px solid black;\\n}\\n\\n@media screen and (max-width: 900px) {\\n  .rYqW_1oq2u3Ttaodck0CP {\\n    min-height: 200px;\\n  }\\n}\\n\", \"\"]);\n// Exports\nexports.locals = {\n\t\"previewText\": \"rYqW_1oq2u3Ttaodck0CP\"\n};"
         },
         {
           "id": 1,
