@@ -21,7 +21,21 @@ module.exports = merge(common, {
             options: {
               importLoaders: 1,
               sourceMap: true,
-              modules: true,
+              modules: {
+                mode: 'local',
+                localIdentName: '[path][name]__[local]--[hash:base64:5]'
+              }
+            }
+          },
+          {
+            loader: 'postcss-loader',
+            options: {
+              sourceMap: true,
+              plugins: function () {
+                return [
+                  require('autoprefixer')
+                ];
+              }
             }
           }
         ]

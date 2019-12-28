@@ -2,13 +2,14 @@
   width: 100%;
   min-height: 70vh;
   resize: vertical;
+  overflow: auto;
   background-color: lightskyblue;
   padding: 10px 10px;
   margin-bottom: -5px;
   border: 1px solid black;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 720px) {
   .editorText {
     min-height: 40vh;
   }

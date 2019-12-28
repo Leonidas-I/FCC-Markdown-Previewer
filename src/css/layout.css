@@ -8,6 +8,7 @@
   left: 1%;
   top: 50px;
   box-shadow: 1px 1px 10px 1px blue;
+  
 }
 
 .left {
@@ -27,7 +28,7 @@
   box-shadow: 1px 1px 10px 1px blue;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 720px) {
   .maximize {
     position: absolute;
     top: 1em;

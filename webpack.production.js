@@ -48,7 +48,20 @@ module.exports = merge(common, {
             loader: 'css-loader',
             options: {
               importLoaders: 1,
-              modules: true
+              modules: {
+                mode: 'local',
+                localIdentName: '[hash:base64]'
+              }
+            }
+          },
+          {
+            loader: 'postcss-loader',
+            options: {
+              plugins: function () {
+                return [
+                  require('autoprefixer')
+                ];
+              }
             }
           }
         ]
