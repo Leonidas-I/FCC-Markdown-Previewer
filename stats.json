@@ -4,18 +4,19 @@
   "warnings": [
   ],
   "version": "4.41.2",
-  "hash": "396110b3c40522d59cbb",
-  "time": 23985,
-  "builtAt": 1577533649349,
+  "hash": "0dbdb9ec3418cbc7b292",
+  "time": 29956,
+  "builtAt": 1584504110671,
   "publicPath": "",
   "outputPath": "/home/arcolinux/leonidas-project/FCC-Markdown-Previewer/dist",
   "assetsByChunkName": {
     "common": "common.ba317382cb287d8fa07c.js",
     "main": [
-      "main.f3c2526355c158a904a9.css",
-      "main.f56a394176322cc86322.js"
+      "main.ef711f96c96c688c49cf.css",
+      "main.a9ea72bd10ce11cf8c0d.js"
     ],
-    "vendor": "vendor.7fec6ea96cbfb6680f80.js"
+    "runtime~main": "runtime~main.8dd4b8d323d2e25844e1.js",
+    "vendor": "vendor.3a982e69fc78c71d1486.js"
   },
   "assets": [
     {
@@ -34,7 +35,7 @@
     },
     {
       "name": "index.html",
-      "size": 526,
+      "size": 605,
       "chunks": [
       ],
       "chunkNames": [
@@ -44,22 +45,8 @@
       "emitted": true
     },
     {
-      "name": "main.f3c2526355c158a904a9.css",
-      "size": 1379,
-      "chunks": [
-        1
-      ],
-      "chunkNames": [
-        "main"
-      ],
-      "info": {
-        "immutable": true
-      },
-      "emitted": true
-    },
-    {
-      "name": "main.f56a394176322cc86322.js",
-      "size": 17697,
+      "name": "main.a9ea72bd10ce11cf8c0d.js",
+      "size": 16262,
       "chunks": [
         1
       ],
@@ -72,10 +59,38 @@
       "emitted": true
     },
     {
-      "name": "vendor.7fec6ea96cbfb6680f80.js",
-      "size": 124268,
+      "name": "main.ef711f96c96c688c49cf.css",
+      "size": 1471,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": true
+    },
+    {
+      "name": "runtime~main.8dd4b8d323d2e25844e1.js",
+      "size": 1492,
       "chunks": [
         2
+      ],
+      "chunkNames": [
+        "runtime~main"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": true
+    },
+    {
+      "name": "vendor.3a982e69fc78c71d1486.js",
+      "size": 124268,
+      "chunks": [
+        3
       ],
       "chunkNames": [
         "vendor"
@@ -90,15 +105,17 @@
   "entrypoints": {
     "main": {
       "chunks": [
-        0,
         2,
+        0,
+        3,
         1
       ],
       "assets": [
+        "runtime~main.8dd4b8d323d2e25844e1.js",
         "common.ba317382cb287d8fa07c.js",
-        "vendor.7fec6ea96cbfb6680f80.js",
-        "main.f3c2526355c158a904a9.css",
-        "main.f56a394176322cc86322.js"
+        "vendor.3a982e69fc78c71d1486.js",
+        "main.ef711f96c96c688c49cf.css",
+        "main.a9ea72bd10ce11cf8c0d.js"
       ],
       "children": {
       },
@@ -109,15 +126,17 @@
   "namedChunkGroups": {
     "main": {
       "chunks": [
-        0,
         2,
+        0,
+        3,
         1
       ],
       "assets": [
+        "runtime~main.8dd4b8d323d2e25844e1.js",
         "common.ba317382cb287d8fa07c.js",
-        "vendor.7fec6ea96cbfb6680f80.js",
-        "main.f3c2526355c158a904a9.css",
-        "main.f56a394176322cc86322.js"
+        "vendor.3a982e69fc78c71d1486.js",
+        "main.ef711f96c96c688c49cf.css",
+        "main.a9ea72bd10ce11cf8c0d.js"
       ],
       "children": {
       },
@@ -142,7 +161,8 @@
       "hash": "892857151f625aa9b187",
       "siblings": [
         1,
-        2
+        2,
+        3
       ],
       "parents": [
       ],
@@ -1488,19 +1508,20 @@
       "id": 1,
       "rendered": true,
       "initial": true,
-      "entry": true,
-      "size": 34582,
+      "entry": false,
+      "size": 34740,
       "names": [
         "main"
       ],
       "files": [
-        "main.f3c2526355c158a904a9.css",
-        "main.f56a394176322cc86322.js"
+        "main.ef711f96c96c688c49cf.css",
+        "main.a9ea72bd10ce11cf8c0d.js"
       ],
-      "hash": "22c1677b56427d0ff464",
+      "hash": "b64824a4c27425a4ea04",
       "siblings": [
         0,
-        2
+        2,
+        3
       ],
       "parents": [
       ],
@@ -3280,7 +3301,7 @@
           "name": "css ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./src/css/layout.css",
           "index": 32,
           "index2": 29,
-          "size": 769,
+          "size": 869,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -3386,7 +3407,7 @@
           "name": "css ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./src/css/editor.css",
           "index": 11,
           "index2": 7,
-          "size": 304,
+          "size": 367,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -3444,7 +3465,7 @@
           "name": "css ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./src/css/preview.css",
           "index": 14,
           "index2": 10,
-          "size": 273,
+          "size": 292,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -3502,7 +3523,7 @@
           "name": "css ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./src/css/toolbar.css",
           "index": 29,
           "index2": 25,
-          "size": 393,
+          "size": 369,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -3572,6 +3593,45 @@
       "id": 2,
       "rendered": true,
       "initial": true,
+      "entry": true,
+      "size": 0,
+      "names": [
+        "runtime~main"
+      ],
+      "files": [
+        "runtime~main.8dd4b8d323d2e25844e1.js"
+      ],
+      "hash": "e4103aa0ab4219f201c9",
+      "siblings": [
+        0,
+        1,
+        3
+      ],
+      "parents": [
+      ],
+      "children": [
+      ],
+      "childrenByOrder": {
+      },
+      "modules": [
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/js/index.js",
+          "reasons": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "rendered": true,
+      "initial": true,
       "entry": false,
       "reason": "split chunk (cache group: vendor) (name: vendor)",
       "size": 127353,
@@ -3579,12 +3639,13 @@
         "vendor"
       ],
       "files": [
-        "vendor.7fec6ea96cbfb6680f80.js"
+        "vendor.3a982e69fc78c71d1486.js"
       ],
-      "hash": "1b1198db0dfb1c1c4c72",
+      "hash": "d95441ccb91d602ae348",
       "siblings": [
         0,
-        1
+        1,
+        2
       ],
       "parents": [
       ],
@@ -3605,7 +3666,7 @@
           "optional": false,
           "prefetched": false,
           "chunks": [
-            2
+            3
           ],
           "issuer": "/home/arcolinux/leonidas-project/FCC-Markdown-Previewer/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/FCC-Markdown-Previewer/src/js/index.js",
           "issuerId": null,
@@ -3833,7 +3894,7 @@
           "optional": false,
           "prefetched": false,
           "chunks": [
-            2
+            3
           ],
           "issuer": "/home/arcolinux/leonidas-project/FCC-Markdown-Previewer/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/FCC-Markdown-Previewer/src/js/index.js",
           "issuerId": null,
@@ -3892,7 +3953,7 @@
           "optional": false,
           "prefetched": false,
           "chunks": [
-            2
+            3
           ],
           "issuer": "/home/arcolinux/leonidas-project/FCC-Markdown-Previewer/node_modules/react/index.js",
           "issuerId": 1,
@@ -3945,7 +4006,7 @@
           "optional": false,
           "prefetched": false,
           "chunks": [
-            2
+            3
           ],
           "issuer": "/home/arcolinux/leonidas-project/FCC-Markdown-Previewer/node_modules/react-dom/index.js",
           "issuerId": 9,
@@ -4322,7 +4383,7 @@
       "optional": false,
       "prefetched": false,
       "chunks": [
-        2
+        3
       ],
       "issuer": "/home/arcolinux/leonidas-project/FCC-Markdown-Previewer/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/FCC-Markdown-Previewer/src/js/index.js",
       "issuerId": null,
@@ -6107,7 +6168,7 @@
       "optional": false,
       "prefetched": false,
       "chunks": [
-        2
+        3
       ],
       "issuer": "/home/arcolinux/leonidas-project/FCC-Markdown-Previewer/node_modules/babel-loader/lib/index.js!/home/arcolinux/leonidas-project/FCC-Markdown-Previewer/src/js/index.js",
       "issuerId": null,
@@ -6374,7 +6435,7 @@
       "optional": false,
       "prefetched": false,
       "chunks": [
-        2
+        3
       ],
       "issuer": "/home/arcolinux/leonidas-project/FCC-Markdown-Previewer/node_modules/react/index.js",
       "issuerId": 1,
@@ -6427,7 +6488,7 @@
       "optional": false,
       "prefetched": false,
       "chunks": [
-        2
+        3
       ],
       "issuer": "/home/arcolinux/leonidas-project/FCC-Markdown-Previewer/node_modules/react-dom/index.js",
       "issuerId": 9,
@@ -7485,7 +7546,7 @@
       "name": "css ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./src/css/layout.css",
       "index": 32,
       "index2": 29,
-      "size": 769,
+      "size": 869,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -7591,7 +7652,7 @@
       "name": "css ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./src/css/editor.css",
       "index": 11,
       "index2": 7,
-      "size": 304,
+      "size": 367,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -7649,7 +7710,7 @@
       "name": "css ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./src/css/preview.css",
       "index": 14,
       "index2": 10,
-      "size": 273,
+      "size": 292,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -7707,7 +7768,7 @@
       "name": "css ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./src/css/toolbar.css",
       "index": 29,
       "index2": 25,
-      "size": 393,
+      "size": 369,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -8002,14 +8063,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 3210,
+          "size": 3276,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "8d34875755c8cb73bae3",
+          "hash": "a49dff639d46d2611dab",
           "siblings": [
           ],
           "parents": [
@@ -8025,7 +8086,7 @@
               "name": "./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./src/css/editor.css",
               "index": 0,
               "index2": 1,
-              "size": 533,
+              "size": 599,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -8059,7 +8120,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \"._2YOIZ9l1AuIocD2I_kydW2 {\\n  width: 100%;\\n  min-height: 70vh;\\n  resize: vertical;\\n  overflow: auto;\\n  background-color: lightskyblue;\\n  padding: 10px 10px;\\n  margin-bottom: -5px;\\n  border: 1px solid black;\\n}\\n\\n@media screen and (max-width: 720px) {\\n  ._2YOIZ9l1AuIocD2I_kydW2 {\\n    min-height: 40vh;\\n  }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"editorText\": \"_2YOIZ9l1AuIocD2I_kydW2\"\n};"
+              "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \"._2YOIZ9l1AuIocD2I_kydW2 {\\n  font-size: medium;\\n  width: 100%;\\n  min-height: 40vh;\\n  resize: vertical;\\n  overflow: auto;\\n  background-color: lightskyblue;\\n  padding: 10px 10px;\\n  margin-bottom: -5px;\\n  border: 1px solid black;\\n  border-top: none;\\n}\\n\\n@media screen and (min-width: 720px) {\\n  ._2YOIZ9l1AuIocD2I_kydW2 {\\n    font-size: large;\\n    min-height: 60vh;\\n  }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"editorText\": \"_2YOIZ9l1AuIocD2I_kydW2\"\n};"
             },
             {
               "id": 1,
@@ -8131,7 +8192,7 @@
           "name": "./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./src/css/editor.css",
           "index": 0,
           "index2": 1,
-          "size": 533,
+          "size": 599,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -8165,7 +8226,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \"._2YOIZ9l1AuIocD2I_kydW2 {\\n  width: 100%;\\n  min-height: 70vh;\\n  resize: vertical;\\n  overflow: auto;\\n  background-color: lightskyblue;\\n  padding: 10px 10px;\\n  margin-bottom: -5px;\\n  border: 1px solid black;\\n}\\n\\n@media screen and (max-width: 720px) {\\n  ._2YOIZ9l1AuIocD2I_kydW2 {\\n    min-height: 40vh;\\n  }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"editorText\": \"_2YOIZ9l1AuIocD2I_kydW2\"\n};"
+          "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \"._2YOIZ9l1AuIocD2I_kydW2 {\\n  font-size: medium;\\n  width: 100%;\\n  min-height: 40vh;\\n  resize: vertical;\\n  overflow: auto;\\n  background-color: lightskyblue;\\n  padding: 10px 10px;\\n  margin-bottom: -5px;\\n  border: 1px solid black;\\n  border-top: none;\\n}\\n\\n@media screen and (min-width: 720px) {\\n  ._2YOIZ9l1AuIocD2I_kydW2 {\\n    font-size: large;\\n    min-height: 60vh;\\n  }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"editorText\": \"_2YOIZ9l1AuIocD2I_kydW2\"\n};"
         },
         {
           "id": 1,
@@ -8275,14 +8336,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 3815,
+          "size": 3918,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "f3fb902546a5f52bc234",
+          "hash": "ca4e4720a208d27d24a0",
           "siblings": [
           ],
           "parents": [
@@ -8298,7 +8359,7 @@
               "name": "./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./src/css/layout.css",
               "index": 0,
               "index2": 1,
-              "size": 1138,
+              "size": 1241,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -8332,7 +8393,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \"._2N7Df96o1y4ac95UfhmCNX {\\n  display: none;\\n}\\n\\n.QVhdJeusCmJhLCvOdi2Sy {\\n  position: absolute;\\n  width: 98%;\\n  left: 1%;\\n  top: 50px;\\n  box-shadow: 1px 1px 10px 1px blue;\\n  \\n}\\n\\n.hsdF69Jl_PtnoNIg-_4Pf {\\n  position: absolute;\\n  width: 48%;\\n  left: 1%;\\n  top: 50px;\\n  box-shadow: 1px 1px 10px 1px blue;\\n}\\n\\n._1OG210vtz7DzZ34cPvfeYn {\\n  position: absolute;\\n  width: 48%;\\n  right: 1%;\\n  top: 50px;\\n  min-height: 50vh;\\n  box-shadow: 1px 1px 10px 1px blue;\\n}\\n\\n@media screen and (max-width: 720px) {\\n  .QVhdJeusCmJhLCvOdi2Sy {\\n    position: absolute;\\n    top: 1em;\\n  }\\n\\n  .hsdF69Jl_PtnoNIg-_4Pf {\\n    position: static;\\n    margin: 1em auto;\\n    width: 98%;\\n  }\\n\\n  ._1OG210vtz7DzZ34cPvfeYn {\\n    position: static;\\n    margin: 1em auto;\\n    width: 98%;\\n    min-height: 200px;\\n  }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"minimize\": \"_2N7Df96o1y4ac95UfhmCNX\",\n\t\"maximize\": \"QVhdJeusCmJhLCvOdi2Sy\",\n\t\"left\": \"hsdF69Jl_PtnoNIg-_4Pf\",\n\t\"right\": \"_1OG210vtz7DzZ34cPvfeYn\"\n};"
+              "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \":root {\\n  --width-layout: 98%;\\n}\\n\\n._2N7Df96o1y4ac95UfhmCNX {\\n  display: none;\\n}\\n\\n.QVhdJeusCmJhLCvOdi2Sy {\\n  position: absolute;\\n  width: var(--width-layout);\\n  left: 1%;\\n  top: 1em;\\n  box-shadow: 1px 1px 10px 1px blue;\\n}\\n\\n.hsdF69Jl_PtnoNIg-_4Pf {\\n  position: static;\\n  width: var(--width-layout);\\n  margin: 1em auto;\\n  box-shadow: 1px 1px 10px 1px blue;\\n}\\n\\n._1OG210vtz7DzZ34cPvfeYn {\\n  position: static;\\n  margin: 1em auto;\\n  width: var(--width-layout);\\n  box-shadow: 1px 1px 10px 1px blue;\\n}\\n\\n@media screen and (min-width: 720px) {\\n  :root {\\n    --top-position: 2em;\\n  }\\n  .QVhdJeusCmJhLCvOdi2Sy {\\n    top: var(--top-position);\\n  }\\n\\n  .hsdF69Jl_PtnoNIg-_4Pf {\\n    position: absolute;\\n    left: 1%;\\n    top: var(--top-position);\\n    width: 48%;\\n  }\\n\\n  ._1OG210vtz7DzZ34cPvfeYn {\\n    position: absolute;\\n    width: 48%;\\n    right: 1%;\\n    top: var(--top-position);\\n  }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"minimize\": \"_2N7Df96o1y4ac95UfhmCNX\",\n\t\"maximize\": \"QVhdJeusCmJhLCvOdi2Sy\",\n\t\"left\": \"hsdF69Jl_PtnoNIg-_4Pf\",\n\t\"right\": \"_1OG210vtz7DzZ34cPvfeYn\"\n};"
             },
             {
               "id": 1,
@@ -8404,7 +8465,7 @@
           "name": "./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./src/css/layout.css",
           "index": 0,
           "index2": 1,
-          "size": 1138,
+          "size": 1241,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -8438,7 +8499,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \"._2N7Df96o1y4ac95UfhmCNX {\\n  display: none;\\n}\\n\\n.QVhdJeusCmJhLCvOdi2Sy {\\n  position: absolute;\\n  width: 98%;\\n  left: 1%;\\n  top: 50px;\\n  box-shadow: 1px 1px 10px 1px blue;\\n  \\n}\\n\\n.hsdF69Jl_PtnoNIg-_4Pf {\\n  position: absolute;\\n  width: 48%;\\n  left: 1%;\\n  top: 50px;\\n  box-shadow: 1px 1px 10px 1px blue;\\n}\\n\\n._1OG210vtz7DzZ34cPvfeYn {\\n  position: absolute;\\n  width: 48%;\\n  right: 1%;\\n  top: 50px;\\n  min-height: 50vh;\\n  box-shadow: 1px 1px 10px 1px blue;\\n}\\n\\n@media screen and (max-width: 720px) {\\n  .QVhdJeusCmJhLCvOdi2Sy {\\n    position: absolute;\\n    top: 1em;\\n  }\\n\\n  .hsdF69Jl_PtnoNIg-_4Pf {\\n    position: static;\\n    margin: 1em auto;\\n    width: 98%;\\n  }\\n\\n  ._1OG210vtz7DzZ34cPvfeYn {\\n    position: static;\\n    margin: 1em auto;\\n    width: 98%;\\n    min-height: 200px;\\n  }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"minimize\": \"_2N7Df96o1y4ac95UfhmCNX\",\n\t\"maximize\": \"QVhdJeusCmJhLCvOdi2Sy\",\n\t\"left\": \"hsdF69Jl_PtnoNIg-_4Pf\",\n\t\"right\": \"_1OG210vtz7DzZ34cPvfeYn\"\n};"
+          "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \":root {\\n  --width-layout: 98%;\\n}\\n\\n._2N7Df96o1y4ac95UfhmCNX {\\n  display: none;\\n}\\n\\n.QVhdJeusCmJhLCvOdi2Sy {\\n  position: absolute;\\n  width: var(--width-layout);\\n  left: 1%;\\n  top: 1em;\\n  box-shadow: 1px 1px 10px 1px blue;\\n}\\n\\n.hsdF69Jl_PtnoNIg-_4Pf {\\n  position: static;\\n  width: var(--width-layout);\\n  margin: 1em auto;\\n  box-shadow: 1px 1px 10px 1px blue;\\n}\\n\\n._1OG210vtz7DzZ34cPvfeYn {\\n  position: static;\\n  margin: 1em auto;\\n  width: var(--width-layout);\\n  box-shadow: 1px 1px 10px 1px blue;\\n}\\n\\n@media screen and (min-width: 720px) {\\n  :root {\\n    --top-position: 2em;\\n  }\\n  .QVhdJeusCmJhLCvOdi2Sy {\\n    top: var(--top-position);\\n  }\\n\\n  .hsdF69Jl_PtnoNIg-_4Pf {\\n    position: absolute;\\n    left: 1%;\\n    top: var(--top-position);\\n    width: 48%;\\n  }\\n\\n  ._1OG210vtz7DzZ34cPvfeYn {\\n    position: absolute;\\n    width: 48%;\\n    right: 1%;\\n    top: var(--top-position);\\n  }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"minimize\": \"_2N7Df96o1y4ac95UfhmCNX\",\n\t\"maximize\": \"QVhdJeusCmJhLCvOdi2Sy\",\n\t\"left\": \"hsdF69Jl_PtnoNIg-_4Pf\",\n\t\"right\": \"_1OG210vtz7DzZ34cPvfeYn\"\n};"
         },
         {
           "id": 1,
@@ -8821,14 +8882,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 3177,
+          "size": 3195,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "8266f5822e26e36f312b",
+          "hash": "ff0fe20a1192978b2ba0",
           "siblings": [
           ],
           "parents": [
@@ -8844,7 +8905,7 @@
               "name": "./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./src/css/preview.css",
               "index": 0,
               "index2": 1,
-              "size": 500,
+              "size": 518,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -8878,7 +8939,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".rYqW_1oq2u3Ttaodck0CP {\\n  width: 100%;\\n  padding: 10px 10px;\\n  word-break: break-all;\\n  word-wrap: break-word;\\n  background-color: blanchedalmond;\\n  border: 1px solid black;\\n}\\n\\n@media screen and (max-width: 720px) {\\n  .rYqW_1oq2u3Ttaodck0CP {\\n    min-height: 200px;\\n  }\\n}\\n\", \"\"]);\n// Exports\nexports.locals = {\n\t\"previewText\": \"rYqW_1oq2u3Ttaodck0CP\"\n};"
+              "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".rYqW_1oq2u3Ttaodck0CP {\\n  font-size: medium;\\n  width: 100%;\\n  padding: 10px 10px;\\n  word-wrap: break-word;\\n  overflow: hidden;\\n  background-color: #ffebcd;\\n  border: 1px solid black;\\n  border-top: none;\\n}\\n\\n@media screen and (min-width: 720px) {\\n  .rYqW_1oq2u3Ttaodck0CP {font-size: large;}\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"previewText\": \"rYqW_1oq2u3Ttaodck0CP\"\n};"
             },
             {
               "id": 1,
@@ -8950,7 +9011,7 @@
           "name": "./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./src/css/preview.css",
           "index": 0,
           "index2": 1,
-          "size": 500,
+          "size": 518,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -8984,7 +9045,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".rYqW_1oq2u3Ttaodck0CP {\\n  width: 100%;\\n  padding: 10px 10px;\\n  word-break: break-all;\\n  word-wrap: break-word;\\n  background-color: blanchedalmond;\\n  border: 1px solid black;\\n}\\n\\n@media screen and (max-width: 720px) {\\n  .rYqW_1oq2u3Ttaodck0CP {\\n    min-height: 200px;\\n  }\\n}\\n\", \"\"]);\n// Exports\nexports.locals = {\n\t\"previewText\": \"rYqW_1oq2u3Ttaodck0CP\"\n};"
+          "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".rYqW_1oq2u3Ttaodck0CP {\\n  font-size: medium;\\n  width: 100%;\\n  padding: 10px 10px;\\n  word-wrap: break-word;\\n  overflow: hidden;\\n  background-color: #ffebcd;\\n  border: 1px solid black;\\n  border-top: none;\\n}\\n\\n@media screen and (min-width: 720px) {\\n  .rYqW_1oq2u3Ttaodck0CP {font-size: large;}\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"previewText\": \"rYqW_1oq2u3Ttaodck0CP\"\n};"
         },
         {
           "id": 1,
@@ -9094,14 +9155,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 3398,
+          "size": 3373,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "ca240fdd438c913ddea8",
+          "hash": "bb3a5408434ec4af358b",
           "siblings": [
           ],
           "parents": [
@@ -9117,7 +9178,7 @@
               "name": "./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./src/css/toolbar.css",
               "index": 0,
               "index2": 1,
-              "size": 721,
+              "size": 696,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -9151,7 +9212,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \"._1-M-K0Vszj1cdqXj6N80VM {\\n  border: 1px solid black;\\n  border-bottom: none;\\n  width: 100%;\\n  height: 40px;\\n  background-color: rgb(157, 126, 241);\\n  padding: 7px 20px;\\n  font-size: 20px;\\n}\\n\\n._2_sWqKsQWpJ9zzPS73fRpG, .pAKVA0RHDL7X49jPYoOao {\\n  float: right;\\n  right: 10px;\\n  color: black;\\n}\\n\\n._2_sWqKsQWpJ9zzPS73fRpG:hover, .pAKVA0RHDL7X49jPYoOao:hover {\\n  color: crimson;\\n  cursor: pointer;\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"toolbar\": \"_1-M-K0Vszj1cdqXj6N80VM\",\n\t\"compress-arrows-alt\": \"_2_sWqKsQWpJ9zzPS73fRpG\",\n\t\"expand-arrows-alt\": \"pAKVA0RHDL7X49jPYoOao\"\n};"
+              "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \"._1-M-K0Vszj1cdqXj6N80VM {\\n  border: 2px solid black;\\n  width: 100%;\\n  height: 40px;\\n  background-color: rgb(157, 126, 241);\\n  padding: 7px 20px;\\n  font-size: 20px;\\n}\\n\\n._2_sWqKsQWpJ9zzPS73fRpG, .pAKVA0RHDL7X49jPYoOao {\\n  float: right;\\n  right: 1em;\\n  color: black;\\n}\\n\\n._2_sWqKsQWpJ9zzPS73fRpG:hover, .pAKVA0RHDL7X49jPYoOao:hover {\\n  color: crimson;\\n  cursor: pointer;\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"toolbar\": \"_1-M-K0Vszj1cdqXj6N80VM\",\n\t\"compress-arrows-alt\": \"_2_sWqKsQWpJ9zzPS73fRpG\",\n\t\"expand-arrows-alt\": \"pAKVA0RHDL7X49jPYoOao\"\n};"
             },
             {
               "id": 1,
@@ -9223,7 +9284,7 @@
           "name": "./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./src/css/toolbar.css",
           "index": 0,
           "index2": 1,
-          "size": 721,
+          "size": 696,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -9257,7 +9318,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \"._1-M-K0Vszj1cdqXj6N80VM {\\n  border: 1px solid black;\\n  border-bottom: none;\\n  width: 100%;\\n  height: 40px;\\n  background-color: rgb(157, 126, 241);\\n  padding: 7px 20px;\\n  font-size: 20px;\\n}\\n\\n._2_sWqKsQWpJ9zzPS73fRpG, .pAKVA0RHDL7X49jPYoOao {\\n  float: right;\\n  right: 10px;\\n  color: black;\\n}\\n\\n._2_sWqKsQWpJ9zzPS73fRpG:hover, .pAKVA0RHDL7X49jPYoOao:hover {\\n  color: crimson;\\n  cursor: pointer;\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"toolbar\": \"_1-M-K0Vszj1cdqXj6N80VM\",\n\t\"compress-arrows-alt\": \"_2_sWqKsQWpJ9zzPS73fRpG\",\n\t\"expand-arrows-alt\": \"pAKVA0RHDL7X49jPYoOao\"\n};"
+          "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \"._1-M-K0Vszj1cdqXj6N80VM {\\n  border: 2px solid black;\\n  width: 100%;\\n  height: 40px;\\n  background-color: rgb(157, 126, 241);\\n  padding: 7px 20px;\\n  font-size: 20px;\\n}\\n\\n._2_sWqKsQWpJ9zzPS73fRpG, .pAKVA0RHDL7X49jPYoOao {\\n  float: right;\\n  right: 1em;\\n  color: black;\\n}\\n\\n._2_sWqKsQWpJ9zzPS73fRpG:hover, .pAKVA0RHDL7X49jPYoOao:hover {\\n  color: crimson;\\n  cursor: pointer;\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"toolbar\": \"_1-M-K0Vszj1cdqXj6N80VM\",\n\t\"compress-arrows-alt\": \"_2_sWqKsQWpJ9zzPS73fRpG\",\n\t\"expand-arrows-alt\": \"pAKVA0RHDL7X49jPYoOao\"\n};"
         },
         {
           "id": 1,
