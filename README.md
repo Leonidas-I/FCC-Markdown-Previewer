@@ -1,3 +1,7 @@
+# Description  
+type markdown text on the left/top  
+auto transpile to human text on the right/bottom  
+
 # What i have done
 use font awesome 5 with webpack  
 bundle splitting  

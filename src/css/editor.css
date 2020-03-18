@@ -1,16 +1,19 @@
 .editorText {
+  font-size: medium;
   width: 100%;
-  min-height: 70vh;
+  min-height: 40vh;
   resize: vertical;
   overflow: auto;
   background-color: lightskyblue;
   padding: 10px 10px;
   margin-bottom: -5px;
   border: 1px solid black;
+  border-top: none;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (min-width: 720px) {
   .editorText {
-    min-height: 40vh;
+    font-size: large;
+    min-height: 60vh;
   }
 }

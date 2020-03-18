@@ -1,49 +1,52 @@
+:root {
+  --width-layout: 98%;
+}
+
 .minimize {
   display: none;
 }
 
 .maximize {
   position: absolute;
-  width: 98%;
+  width: var(--width-layout);
   left: 1%;
-  top: 50px;
+  top: 1em;
   box-shadow: 1px 1px 10px 1px blue;
-  
 }
 
 .left {
-  position: absolute;
-  width: 48%;
-  left: 1%;
-  top: 50px;
+  position: static;
+  width: var(--width-layout);
+  margin: 1em auto;
   box-shadow: 1px 1px 10px 1px blue;
 }
 
 .right {
-  position: absolute;
-  width: 48%;
-  right: 1%;
-  top: 50px;
-  min-height: 50vh;
+  position: static;
+  margin: 1em auto;
+  width: var(--width-layout);
   box-shadow: 1px 1px 10px 1px blue;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (min-width: 720px) {
+  :root {
+    --top-position: 2em;
+  }
   .maximize {
-    position: absolute;
-    top: 1em;
+    top: var(--top-position);
   }
 
   .left {
-    position: static;
-    margin: 1em auto;
-    width: 98%;
+    position: absolute;
+    left: 1%;
+    top: var(--top-position);
+    width: 48%;
   }
 
   .right {
-    position: static;
-    margin: 1em auto;
-    width: 98%;
-    min-height: 200px;
+    position: absolute;
+    width: 48%;
+    right: 1%;
+    top: var(--top-position);
   }
 }
